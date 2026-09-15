@@ -1,42 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
-  <rect width="256" height="256" fill="#fff"/>
-
-  <!-- Snowman body -->
-  <circle cx="128" cy="195" r="45" fill="#fff" stroke="#000" stroke-width="5"/>
-  <circle cx="128" cy="135" r="35" fill="#fff" stroke="#000" stroke-width="5"/>
-  <circle cx="128" cy="85" r="25" fill="#fff" stroke="#000" stroke-width="5"/>
-
-  <!-- Hat -->
-  <rect x="98" y="50" width="60" height="12" fill="#000"/>
-  <rect x="108" y="25" width="40" height="25" fill="#000"/>
-
-  <!-- Eyes -->
-  <circle cx="118" cy="80" r="3" fill="#000"/>
-  <circle cx="138" cy="80" r="3" fill="#000"/>
-
-  <!-- Nose -->
-  <polygon points="128,86 140,92 128,98" fill="#000"/>
-
+<svg viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Snowman body - three circles -->
+  <circle cx="100" cy="240" r="45" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="100" cy="135" r="35" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="100" cy="50" r="28" fill="white" stroke="black" stroke-width="1"/>
+  
+  <!-- Top hat -->
+  <rect x="75" y="15" width="50" height="12" fill="black"/>
+  <rect x="72" y="27" width="56" height="8" fill="black"/>
+  
+  <!-- Carrot nose -->
+  <polygon points="100,55 100,65 115,60" fill="#FF8C00"/>
+  
   <!-- Buttons -->
-  <circle cx="128" cy="125" r="4" fill="#000"/>
-  <circle cx="128" cy="145" r="4" fill="#000"/>
-  <circle cx="128" cy="165" r="4" fill="#000"/>
-
-  <!-- Left arm -->
-  <line x1="93" y1="130" x2="55" y2="110" stroke="#000" stroke-width="5" stroke-linecap="round"/>
-
-  <!-- Right arm holding rifle -->
-  <line x1="163" y1="130" x2="150" y2="160" stroke="#000" stroke-width="5" stroke-linecap="round"/>
-
-  <!-- Automatic rifle -->
-  <g>
-    <rect x="120" y="145" width="20" height="10" fill="#000"/>
-    <rect x="140" y="142" width="40" height="16" fill="#000"/>
-    <rect x="180" y="146" width="40" height="6" fill="#000"/>
-    <rect x="155" y="144" width="25" height="12" fill="#000"/>
-    <rect x="150" y="158" width="10" height="20" fill="#000" transform="rotate(10 155 158)"/>
-    <rect x="140" y="158" width="8" height="16" fill="#000" transform="rotate(-15 144 158)"/>
-    <rect x="210" y="140" width="4" height="8" fill="#000"/>
-    <rect x="170" y="136" width="6" height="6" fill="#000"/>
-  </g>
+  <circle cx="100" cy="120" r="2" fill="black"/>
+  <circle cx="100" cy="135" r="2" fill="black"/>
+  <circle cx="100" cy="150" r="2" fill="black"/>
+  
+  <!-- Left stick arm -->
+  <line x1="65" y1="130" x2="30" y2="110" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <line x1="30" y1="110" x2="15" y2="100" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <line x1="30" y1="110" x2="20" y2="125" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Right stick arm (holding machine gun) -->
+  <line x1="135" y1="130" x2="170" y2="115" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <line x1="170" y1="115" x2="185" y2="108" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <line x1="170" y1="115" x2="180" y2="130" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Small machine gun in right hand -->
+  <rect x="168" y="108" width="28" height="6" fill="black" stroke="black" stroke-width="0.5" rx="1"/>
+  <rect x="190" y="105" width="4" height="12" fill="black"/>
+  <rect x="175" y="103" width="3" height="4" fill="black"/>
+  <circle cx="172" cy="111" r="2" fill="black"/>
+  <line x1="195" y1="110" x2="200" y2="108" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
 </svg>
